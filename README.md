@@ -53,19 +53,6 @@
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 ![Metasploit](https://img.shields.io/badge/Metasploit-2596CD?style=for-the-badge&logo=metasploit&logoColor=white)
 
----
-
-### 🚀 Featured Projects
-
-| Project | Description | Tech | Link |
-|---|---|---|---|
-| **Project One** | One-line description of what it does and the problem it solves | React, Node.js | [Repo](https://github.com/yourhandle/project-one) |
-| **Project Two** | Mobile app built with Flutter, published to Play Store | Flutter, Firebase | [Repo](https://github.com/yourhandle/project-two) |
-| **Project Three** | Security tool/script for automated recon or vuln scanning | Python, Nmap | [Repo](https://github.com/yourhandle/project-three) |
-
-> 💡 Tip: pin these same repos on your GitHub profile (Customize your pins) so this table and your pinned cards match.
-
----
 
 ### ✨ Extras
 
