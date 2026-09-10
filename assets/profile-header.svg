@@ -1,0 +1,123 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="1200"
+  height="340"
+  viewBox="0 0 1200 340"
+  fill="none"
+  role="img"
+  aria-labelledby="title description"
+>
+  <title id="title">Froilan — Web and Mobile Developer</title>
+  <desc id="description">
+    A dark developer banner with blue and teal accents,
+    an animated code symbol, and the subtitle Cybersecurity Enthusiast.
+  </desc>
+
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1200" y2="340"
+      gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0D1117"/>
+      <stop offset="1" stop-color="#142336"/>
+    </linearGradient>
+
+    <linearGradient id="accent" x1="64" y1="0" x2="1136" y2="0"
+      gradientUnits="userSpaceOnUse">
+      <stop stop-color="#58A6FF"/>
+      <stop offset="1" stop-color="#2DD4BF"/>
+    </linearGradient>
+
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40"
+        stroke="#58A6FF" stroke-opacity="0.06"/>
+    </pattern>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="340" rx="24" fill="url(#background)"/>
+  <rect width="1200" height="340" rx="24" fill="url(#grid)"/>
+  <rect x="1" y="1" width="1198" height="338" rx="23"
+    stroke="#303D50"/>
+
+  <!-- Accent -->
+  <rect x="64" y="58" width="64" height="4" rx="2" fill="url(#accent)"/>
+
+  <!-- Introduction -->
+  <text
+    x="64"
+    y="106"
+    fill="#8BABC8"
+    font-family="Segoe UI, Arial, sans-serif"
+    font-size="15"
+    font-weight="600"
+    letter-spacing="4"
+  >HELLO, I'M</text>
+
+  <text
+    x="60"
+    y="182"
+    fill="#F0F6FC"
+    font-family="Segoe UI, Arial, sans-serif"
+    font-size="72"
+    font-weight="700"
+    letter-spacing="-2"
+  >Froilan<tspan fill="#58A6FF">.</tspan></text>
+
+  <text
+    x="64"
+    y="228"
+    fill="#C9D7E5"
+    font-family="Segoe UI, Arial, sans-serif"
+    font-size="25"
+    font-weight="500"
+  >Web &amp; Mobile Developer</text>
+
+  <text
+    x="64"
+    y="266"
+    fill="#8BABC8"
+    font-family="Segoe UI, Arial, sans-serif"
+    font-size="19"
+  >Cybersecurity Enthusiast</text>
+
+  <!-- Decorative code panel -->
+  <rect x="860" y="76" width="260" height="188" rx="18"
+    fill="#0D1724" stroke="#2A4057"/>
+
+  <circle cx="884" cy="99" r="4" fill="#58A6FF"/>
+  <circle cx="900" cy="99" r="4" fill="#2DD4BF"/>
+  <circle cx="916" cy="99" r="4" fill="#52667E"/>
+
+  <path d="M860 118H1120" stroke="#2A4057"/>
+
+  <g stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M946 155L916 184L946 213" stroke="#58A6FF"/>
+    <path d="M1034 155L1064 184L1034 213" stroke="#58A6FF"/>
+    <path d="M1004 146L977 222" stroke="#2DD4BF">
+      <animate
+        attributeName="opacity"
+        values="1;0.45;1"
+        dur="3.5s"
+        repeatCount="indefinite"
+      />
+    </path>
+  </g>
+
+  <!-- Subtle animated accent -->
+  <path d="M64 306H1136" stroke="url(#accent)" stroke-opacity="0.22"/>
+
+  <circle cx="64" cy="306" r="3" fill="#2DD4BF">
+    <animate
+      attributeName="cx"
+      values="64;1136"
+      dur="9s"
+      repeatCount="indefinite"
+    />
+    <animate
+      attributeName="opacity"
+      values="0;1;1;0"
+      keyTimes="0;0.1;0.9;1"
+      dur="9s"
+      repeatCount="indefinite"
+    />
+  </circle>
+</svg>
